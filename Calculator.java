@@ -34,7 +34,12 @@ public class Calculator {
             System.out.println("multiplication = " + pro);
         }
         else if (arithmetic == 4) {
-            System.out.println("quotient = " + quo);
+            if (secondNumber == 0) {
+                System.out.println("the numerator cannot be divided by zero.");
+            }
+            else {
+                System.out.println("quotient = " + quo);
+            }
         }
         else {
             System.out.println("please enter a valid input.");
