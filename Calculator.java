@@ -35,7 +35,7 @@ public class Calculator {
         }
         else if (arithmetic == 4) {
             if (secondNumber == 0) {
-                System.out.println("the numerator cannot be divided by zero.");
+                System.out.println("“Error: Divide by Zero");
             }
             else {
                 System.out.println("quotient = " + quo);
