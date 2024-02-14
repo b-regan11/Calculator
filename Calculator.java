@@ -10,14 +10,14 @@ public class Calculator {
         Integer arithmetic = userInput.nextInt();
 
         System.out.println("Enter the first whole number:");
-        Integer firstNumber = userInput.nextInt();
+        Float firstNumber = userInput.nextFloat();
         System.out.println("Enter the second whole number:");
-        Integer secondNumber = userInput.nextInt();
+        Float secondNumber = userInput.nextFloat();
         
-        Integer sum;    // Sum
-        Integer dif;    // Difference
-        Integer pro;    // Product
-        Integer quo;       // Quotient
+        Float sum;      // Sum
+        Float dif;      // Difference
+        Float pro;      // Product
+        Float quo;      // Quotient
 
         sum = firstNumber + secondNumber;    
         dif = firstNumber - secondNumber;
